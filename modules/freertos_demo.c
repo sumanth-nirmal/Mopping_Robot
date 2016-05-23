@@ -38,6 +38,7 @@
 #include "task.h"
 #include "queue.h"
 #include "semphr.h"
+#include "pwm\pwm_wrapper.h"
 
 //*****************************************************************************
 //
@@ -165,6 +166,7 @@ main(void)
     ROM_SysCtlClockSet(SYSCTL_SYSDIV_4 | SYSCTL_USE_PLL | SYSCTL_XTAL_16MHZ |
                        SYSCTL_OSC_MAIN);
 
+
     //
     // Initialize the UART and configure it for 115,200, 8-N-1 operation.
     //
@@ -183,6 +185,11 @@ main(void)
     //
     // Create the LED task.
     //
+
+    pmw_ini();
+
+
+
     if(LEDTaskInit() != 0)
     {
 

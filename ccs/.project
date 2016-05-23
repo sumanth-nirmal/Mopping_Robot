@@ -111,6 +111,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/modules/uartstdio.h</locationURI>
 		</link>
 		<link>
+			<name>modules/pwm/pwm_wrapper.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/modules/pwm/pwm_wrapper.c</locationURI>
+		</link>
+		<link>
+			<name>modules/pwm/pwm_wrapper.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/modules/pwm/pwm_wrapper.h</locationURI>
+		</link>
+		<link>
 			<name>modules/source/list.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/modules/Source/list.c</locationURI>
